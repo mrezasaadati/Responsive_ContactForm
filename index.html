@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Conatct Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1 class="brand">فروشگاه اینترنتی بازی استور</h1>
+                <div class="wrapper">
+                    <div class="company-info">
+                        <h3>تماس با ما</h3>
+                        <ul>
+                            <li>تهران - بلوار میرداماد - مجتمع کامپیوتر پایتخت</li>
+                            <li>021-888-88888</li>
+                            <li>bazystore@mail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="contact">
+                    <h3>برای ارتباط با ما از طریق فرم زیر اقدام کنید</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="usr">نام و نام خانوادگی</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">نام شرکت</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-briefcase"></i></span>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">ایمیل</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">شماره تلفن</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-phone-alt"></i></span>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">پیغام</label>
+
+                            <textarea class="form-control" rows="6" id="comment"></textarea>
+                        </div>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LdXYTAUAAAAABjsIFV_kIQ0CVDGSI9l2RF7aTtD"></div>
+                <button type="submit" class="btn btn-default">ارسال</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
