@@ -47,6 +47,36 @@ ul{
     margin: 0 0 1rem 0;
 }
 
+.contact{
+    background: #f9feff;
+}
+
+/* form */
+
+.contact form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
